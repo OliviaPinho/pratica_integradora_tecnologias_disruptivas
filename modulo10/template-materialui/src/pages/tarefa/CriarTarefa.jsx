@@ -146,6 +146,8 @@ const CriarTarefa = ({handleClose, tarefas, setTarefas}) =>{
                   <MenuItem value={'Aguardando'}>Aguardando</MenuItem>
                   <MenuItem value={'Em Andamento'}>Em Andamento</MenuItem>
                   <MenuItem value={'Concluída'}>Concluída</MenuItem>
+                  <MenuItem value={'Em espera'}>Em Espera</MenuItem>
+                  <MenuItem value={'Negada'}>Negada</MenuItem>
                 </Select>
               </FormControl>
             </Grid>
