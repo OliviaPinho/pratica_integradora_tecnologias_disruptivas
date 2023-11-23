@@ -85,8 +85,8 @@ const ListarTarefa = () => {
     <>
     <Card>
         <CardHeader
-          title="Tarefas"
-          subheader="Listagem de Tarefas"
+          title="Nossas Tarefas"
+          subheader="Listagem das Tarefas"
         /> 
         <CardContent>
             <TableContainer component={Paper}>
@@ -94,7 +94,7 @@ const ListarTarefa = () => {
                 <TableHead>
                 <TableRow>
                     <TableCell>#</TableCell>
-                    <TableCell>Título</TableCell>
+                    <TableCell>Nome da Tarefa</TableCell>
                     <TableCell align="right">Descrição</TableCell>
                     <TableCell align="right">Data de Início</TableCell>
                     <TableCell align="right">Data de Finalização</TableCell>
@@ -134,7 +134,7 @@ const ListarTarefa = () => {
             </TableContainer>
         </CardContent>
         <CardActions>
-            <Button size="small" variant="contained" onClick={handleOpen}>Criar Tarefa</Button>
+            <Button size="small" variant="contained" onClick={handleOpen}>Criar uma nova Tarefa</Button>
             <Button size="small" variant="outlined">Cancelar</Button>
       </CardActions> 
     </Card>

@@ -25,7 +25,7 @@ function Header() {
               */}
             </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Gerenciamento de Projetos
+              Aplicação de Gerenciamento de Projetos 2023 By Olivia Pinho
             </Typography>
           </Toolbar>
         </AppBar>
